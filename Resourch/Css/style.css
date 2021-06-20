@@ -1,0 +1,435 @@
+body{
+    background-color: ;
+    font-family: ;
+}
+
+/*.container{
+        max-width: 1400px;
+    }*/
+
+.bg-img{
+    background-image: url(../img/mainimg.jpeg);
+    height: ;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.top-menu-bg{
+    background: rgba(35, 31, 32, 0.8);
+}
+
+
+/*.nav-logo{
+    margin: 5px;
+    margin-left: 80px;
+}*/
+
+.nav-logo img{
+    margin: 10px;
+    width: 120px
+}
+
+.contact{
+    margin: auto 0px auto 0px;
+}
+
+.nav-contact{
+    /*margin: 5px;
+    margin-right: 60px;*/
+    text-align: end;
+    
+}
+
+.nav-contact img{
+    width: 35px;
+    margin-right: 6px;
+    margin-bottom: 8px;
+}
+
+.nav-contact span{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+
+/*Header_Title*/
+.header-title{
+    margin: 360px 0 80px 0px;
+}
+
+.header-title .title{
+    text-transform: uppercase;  
+}
+
+
+.header-title h1{
+    font-weight: 900;
+    font-size: 46px;
+}
+
+.header-title h3{
+    font-size: 31px;
+}
+
+
+
+
+
+/*Contact_form======================*/
+
+.contact-form{
+    border-radius: 3px;
+    background-color: white;
+    max-width: 280px;
+    margin: 44px 0 30px auto;
+    padding: 12px;
+}
+
+.form-title h5{
+    color: #202020;
+    text-align: center;
+    font-size: 18px;
+    margin: 10px 0 20px 0;
+}
+
+.form-title h5 strong{
+    letter-spacing: ; ;
+}
+
+form input{
+    width: 100%;
+    margin: 10px 0 10px 0;
+    padding: 2px;
+    border: none;
+    border-bottom: 1px solid rgba(137, 137, 137, 0.8);
+    
+}
+
+form input::placeholder{
+    color: #1D1D1B;
+    font-weight: 400;
+}
+
+
+#head button{
+    background-color: #BDA583;
+    text-transform: uppercase;
+    color: #242021;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    border-radius: 100px;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 25px 0 25px 0;
+    transition: 0.5s;
+}
+
+#head button:hover{
+    background-color: #987b51;
+    box-shadow: 0px 0px 20px 5px rgb(79 118 157 / 15%);
+}
+
+
+.lock{
+    margin: 10px 0 10px 0;
+}
+
+.lock img{
+    width: 15px;
+}
+
+.lock span{
+    margin-left: 4px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #101010;
+}
+
+
+
+
+/*Body_middle=========================*/
+.body-middle{
+    background-color: #242021;
+}
+
+.body-middle .features{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.features .content{
+    text-align: center;
+    padding: 18px;
+    padding-bottom: ;
+    margin: 10px 8px 10px 8px;;
+    border: 0.1px solid #F2E5C6;
+    border-radius: 30px;
+    min-width: 195px;
+    min-height: 195px;
+    transition: 0.6s;
+}
+
+.features .content:first-child{
+    margin-left: 0px;
+}
+
+.features .content:last-child{
+    margin-right: 0px;
+}
+
+.features .content:hover{
+    transform: scale(1.08);
+}
+
+.features .content img{
+    width: 40px;
+    margin: 0 0 10px 0;
+}
+
+
+.features .content h5 {
+    margin: 0px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.features .content p{
+    margin: 0px;
+    font-size: 11px;
+}
+
+.features .content p span{
+    font-size: 9px;
+}
+
+
+
+/*Middle_text============================*/
+.middle-text{
+    max-width: 700px;
+    margin: 0px auto 0px auto;
+    padding: 30px 40px 50px 40px;
+}
+
+.middle-text p{
+    font-size: 18px;
+    color: #efefef;
+}
+
+.middle-text h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #F1DFB4;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+/*Features_2======================*/
+.feature2{
+    margin: 0px auto 30px auto;
+    padding: 30px 0px 50px 0px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feature2 .content{
+    min-width: 140px;
+    max-height: 90px;
+    padding: 15px 0 15px 0;
+    margin: 10px 5px 10px 5px;;
+    margin-bottom: 30px;
+    border-right: 1px solid white;
+}
+
+.feature2 .content4{
+    border: none;
+}
+
+.feature2 .content .margin-top{
+    margin-top: -40px;
+}
+
+
+.feature2 img{
+    width: 60px;
+    max-height: 90px;
+}
+
+.feature2 p{
+    color: #efefef;
+    margin: 1px;
+}
+
+
+
+hr{
+    border-top: 1px solid #cfcfcf;
+    border-radius: 5px;
+    max-width: 992px;
+    margin: 0px auto 10px auto;
+    padding: 0px 10px 0px 10px;
+}
+
+
+footer p{
+    color: #cfcfcf;
+    font-size: 16px;
+    padding-bottom: 70px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+/*Media_Start============================*/
+
+@media (max-width: 992px){
+    
+    .nav-logo img{
+        margin: 6px;
+        /*width: 120px;*/
+    }
+    
+    .nav-contact img{
+        width: 30px;
+        margin-right: 0px;
+        margin-bottom: 4px;
+    }
+
+    .nav-contact span{
+        font-size: 25px;
+    }
+    
+    
+    
+    /* 2==========================*/
+    .header-title{
+        margin: 120px 0 40px 0;
+    }
+
+    .header-title .title{
+        text-align: center;;
+    }
+
+    .header-title h1{
+        font-size: 40px;
+    }
+
+    .header-title h3{
+        font-size: 26px;
+    }
+    
+
+    /*3======================*/    
+    .contact-form{
+        max-width: 380px;
+        margin: 60px auto 60px auto;
+        padding: 25px;
+    }
+
+    .form-title h5{
+        font-size: 24px;
+        margin: 10px 0 20px 0;
+    }
+
+    form input{
+        width: 100%;
+        margin: 15px 0 15px 0; 
+    }
+
+    #head button{
+        padding: 12px;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-size: 20px;
+        margin: 35px 0 25px 0;
+    }
+
+    .lock{
+        margin: 10px 0 10px 0;
+    }
+
+    
+}
+
+
+
+
+
+@media (max-width: 767px){
+    .container{
+        max-width: 767px
+    }
+    
+    .nav-logo{
+        text-align: center;
+    }
+    
+    .nav-contact{
+        text-align: center;
+        margin: 5px;
+    }
+    
+    .middle-text h2{
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    
+    .feature2{
+        justify-content: center;
+    }
+    
+    
+    .feature2 .content{
+        border: none;
+        margin-bottom: 40px;
+    }
+    
+    
+    
+}
+
+
+
+
+@media (max-width: 340px){
+    
+    
+    .nav-logo img{
+        margin: 10px;
+        width: 100px
+    }
+
+
+    .nav-contact img{
+        width: 28px;
+        margin-right: 0px;
+        margin-bottom: 4px;
+    }
+
+    .nav-contact span{
+        font-size: 20px;
+    }
+    
+    form input{
+        width: 100%;
+        margin: 10px 0 10px 0; 
+    }
+    
+    
+}
+
+
+
+
