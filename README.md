@@ -1,3 +1,3 @@
 DLF
 
-https://saiyadm99.github.io/dlf/
+https://saiyadm99.github.io/project2/
